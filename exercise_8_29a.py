@@ -4,7 +4,7 @@ import plotly.express as px
 
 #29. Use the same population data as in the previous exercise. 
 
-population_df = pd.read_csv('https://github.com/GeekyFin/dam/blob/main/population.csv')
+population_df = pd.read_csv('https://raw.githubusercontent.com/GeekyFin/dam/main/population.csv')
 
 #a) Create a new Pandas data frame where the first column is the year and other 142 columns are populations of all the countries in the data
 # year countrya countryb countryc
