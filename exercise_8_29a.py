@@ -1,17 +1,10 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-import os
 
 #29. Use the same population data as in the previous exercise. 
 
-# Get the current working directory (directory of the script)
-dir_path = os.path.dirname(os.path.realpath(__file__))
-
-# Construct the full path to the CSV file
-csv_path = os.path.join(dir_path, 'population.csv')
-
-population_df = pd.read_csv(csv_path)
+population_df = pd.read_csv('https://github.com/GeekyFin/dam/blob/main/population.csv')
 
 #a) Create a new Pandas data frame where the first column is the year and other 142 columns are populations of all the countries in the data
 # year countrya countryb countryc
