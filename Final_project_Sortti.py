@@ -17,7 +17,7 @@ st.markdown('Also, aim is to analyze consumption habit with pool price, and see 
 st.write('--------------------------------------------------------------------------------------------------------')
 
 # Read the data to dataframes
-df_consumption = pd.read_csv('consumption-report-own.csv', delimiter=';') #note, consumption data starts from 1.1.2020
+df_consumption = pd.read_csv('https://github.com/GeekyFin/dam/raw/refs/heads/main/consumption-report-own.csv', delimiter=';') #note, consumption data starts from 1.1.2020
 df_elecprice = pd.read_csv('sahkon-hinta-010121-240924.csv', delimiter=',') #note, electricity price data starts from 1.1.2021
 #df_consumption2 = pd.read_csv('Electricity_20-09-2024.csv', delimiter=';') #lets use our own consumption data from above, not this data
 
